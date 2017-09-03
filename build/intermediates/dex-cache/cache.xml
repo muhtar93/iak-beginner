@@ -3,111 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="/Users/muhtar/.android/build-cache/fc39866d05129bc441d9fcf2e45e033bd4ea9221/output/jars/classes.jar"
+        jar="/Users/muhtar/Public/TugasKuliah/iak-beginner/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
-        <dex dex="/Users/muhtar/Desktop/MU/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3fc7e0c710a4333cdd13b125130426cca80861a9/classes.dex" />
+        sha1="5f5c79130a177ddda98cf347c8ff560b2bd08bae">
+        <dex dex="/Users/muhtar/Public/TugasKuliah/iak-beginner/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_07bc0b82b49199dbc63a4365c591d3476ea42b05/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/muhtar/Desktop/MU/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="0be71def2b8fd3cedd0f2e14903ba1b87093e3cb">
-        <dex dex="/Users/muhtar/Desktop/MU/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0d21604a492f24d7461287171d01e4bcab275a3b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/muhtar/.android/build-cache/099e57b305d9d7dfe3482f2d08829c5d54372d6b/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
-        <dex dex="/Users/muhtar/Desktop/MU/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_03b2f298f075b8bfe5fc816718ea74618b71feb2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/muhtar/.android/build-cache/e28a373012b92c884fe72c6f5df7232faf5be9e1/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
-        <dex dex="/Users/muhtar/Desktop/MU/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7fe1f926bb672959aad7eb4e8b8a6ff98fa10a90/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/muhtar/.android/build-cache/efe2a14dc688813b4db4a31ba942681fa039c38c/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
-        <dex dex="/Users/muhtar/Desktop/MU/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_03479f0b6104e58e2ab34c652bdd1b8d3149e74e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/muhtar/.android/build-cache/382e711bc9fae277ea3e23453d6f8f040903e2ad/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
-        <dex dex="/Users/muhtar/Desktop/MU/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_98f3e76b69a586d4f2631f89f1e295043a3870a0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/muhtar/.android/build-cache/5c003132acf63936fa889accc6e2ddd0481ec758/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
-        <dex dex="/Users/muhtar/Desktop/MU/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_dfa76de63e805c8e9be641153bfd5b5114e2c39f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/muhtar/Desktop/MU/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/Users/muhtar/Public/TugasKuliah/iak-beginner/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/Users/muhtar/Desktop/MU/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_24a9b4670358b0ec53c9d7ae8d3d8122baf2a62d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/muhtar/.android/build-cache/5ecaa4918ae05fd645dbdd78f2923aabb808d184/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
-        <dex dex="/Users/muhtar/Desktop/MU/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_165c86a86cd1b9765bd304da77f9b4d9f1be79ff/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/muhtar/.android/build-cache/36da2730c0b3f6452226e696999c0bd1bd874c75/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
-        <dex dex="/Users/muhtar/Desktop/MU/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1c02a4329a96edd30a2f2d92c7299ff88080f5cb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/muhtar/Public/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
-        <dex dex="/Users/muhtar/Desktop/MU/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.3.1_f2fe3284860988a9d58c623fb14f245103da8501/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/muhtar/.android/build-cache/2caed6e1a1947d056316bd23f145a62744348afe/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/muhtar/Desktop/MU/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_786335b17681c8c5d14b55f8a35b2989bfc13def/classes.dex" />
+        <dex dex="/Users/muhtar/Public/TugasKuliah/iak-beginner/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_126c2a8effc1760816f1a632fea03d19df8e9fdd/classes.dex" />
     </item>
 
 </items>

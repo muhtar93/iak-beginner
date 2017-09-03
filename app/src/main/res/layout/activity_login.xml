@@ -4,66 +4,64 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="benniner.iak.project.afinal.mu.LoginActivity">
+    android:background="#FFFFFF"
+    tools:context="benniner.iak.project.afinal.mu.MainActivity">
 
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        app:srcCompat="@drawable/icon_mu" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/editText"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="35dp"
-        android:text="Manchester United (MU) is one of the clubs with the largest fan base in the world.You may be one of the lovers for this Red Devils nicknamed club.
-But how much do you love MU? Let's prove it in this quiz."
-        android:textColor="@android:color/black">
-    </TextView>
+        android:layout_below="@+id/imageView5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Quiz MU" />
 
     <EditText
         android:id="@+id/editText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/editText2"
-        android:layout_centerHorizontal="true"
-        android:backgroundTint="@android:color/black"
+        android:layout_below="@+id/textView"
         android:ems="10"
-        android:hint="User Name"
-        android:inputType="text" />
+        android:inputType="textPersonName"
+        android:hint="username"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
 
     <EditText
         android:id="@+id/editText2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/button"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:backgroundTint="@android:color/black"
+        android:layout_below="@+id/editText"
         android:ems="10"
-        android:hint="Password"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="20dp"
+        android:hint="password"/>
 
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/editText2"
-        android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/editText2"
-        android:layout_marginBottom="17dp"
-        android:background="@android:color/holo_red_dark"
-        android:text="LOG IN"
-        android:onClick="onClick"
-        android:textColor="@android:color/background_light" />
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="wrap_content"
-        android:layout_height="260dp"
-        android:scaleType="fitStart"
-        app:srcCompat="@drawable/mu1"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
+        android:layout_below="@+id/editText2"
+        android:text="login"
+        android:textColor="#FFFFFF"
+        android:background="#F44336"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
 </RelativeLayout>
