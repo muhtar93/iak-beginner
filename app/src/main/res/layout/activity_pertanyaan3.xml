@@ -1,88 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="benniner.iak.project.afinal.mu.Pertanyaan3Activity">
-
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="match_parent"
-        android:layout_height="240dp"
-        android:scaleType="fitStart"
-        app:srcCompat="@drawable/c"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+    tools:context="benniner.iak.project.afinal.mu.MainActivity">
 
     <TextView
-        android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_centerVertical="true"
-        android:text="Who is the most featured player on the field with MU costume ?"
-        android:textColor="@android:color/black" />
+        android:id="@+id/pertanyaan1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="Pertanyaan Ketiga"/>
 
-    <RadioButton
-        android:id="@+id/radioButton5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView4"
-        android:layout_marginEnd="46dp"
-        android:layout_marginRight="46dp"
-        android:layout_marginTop="47dp"
-        android:layout_toLeftOf="@+id/radioButton7"
-        android:layout_toStartOf="@+id/radioButton7"
-        android:text="Ryan Giggs" />
-
-    <RadioButton
-        android:id="@+id/radioButton6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/radioButton5"
-        android:layout_alignStart="@+id/radioButton5"
-        android:layout_below="@+id/radioButton5"
-        android:layout_marginTop="22dp"
-        android:text="Eric Cantona" />
-
-    <RadioButton
-        android:id="@+id/radioButton7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/radioButton5"
-        android:layout_alignBottom="@+id/radioButton5"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginEnd="64dp"
-        android:layout_marginRight="64dp"
-        android:text="Gary Neville" />
-
-    <RadioButton
-        android:id="@+id/radioButton8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/radioButton6"
-        android:layout_alignBottom="@+id/radioButton6"
-        android:layout_alignLeft="@+id/radioButton7"
-        android:layout_alignStart="@+id/radioButton7"
-        android:text="Rio Ferdinand" />
-
-    <Button
-        android:id="@+id/button3"
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/pertanyaan1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/radioButton6"
-        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:text="Siapakah pemain yang paling banyak tampil di lapangan dengan kostum MU?" />
+
+    <RadioGroup
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/textView2"
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton android:id="@+id/jawaban1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gary Neville" />
+        <RadioButton android:id="@+id/jawaban2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ryan Giggs" />
+        <RadioButton android:id="@+id/jawaban3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eric Cantona"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/Button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:layout_marginTop="10dp"
-        android:background="#7FFFFF"
-        android:onClick="onClick"
-        android:text="Next" />
+        android:layout_marginTop="24dp"
+        android:background="#F44336"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/radioGroup"
+        android:text="NEXT " />
 </RelativeLayout>

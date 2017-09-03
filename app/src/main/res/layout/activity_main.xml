@@ -11,6 +11,7 @@
         android:id="@+id/pertanyaan1"
         android:textSize="20sp"
         android:textStyle="bold"
+        android:layout_marginTop="10dp"
         android:layout_marginLeft="20dp"
         android:text="Pertanyaan Pertama"/>
 
@@ -28,58 +29,38 @@
         android:textSize="16sp"
         android:text="Sebelum resmi bernama Manchester United, apakah nama pertama klub ini?" />
 
-    <CheckBox
-        android:id="@+id/checkBox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <RadioGroup
         android:layout_marginTop="20dp"
-        android:text="Soutport"
-        android:layout_below="@+id/textView2"
-        android:layout_toRightOf="@+id/checkBox3"
-        android:layout_toEndOf="@+id/checkBox3"
         android:layout_marginLeft="20dp"
-        android:layout_marginStart="31dp" />
-
-    <CheckBox
-        android:id="@+id/checkBox2"
-        android:layout_width="wrap_content"
+        android:layout_below="@id/textView2"
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Preston North"
-        android:layout_above="@+id/Button1"
-        android:layout_alignLeft="@+id/checkBox"
-        android:layout_alignStart="@+id/checkBox" />
-
-    <CheckBox
-        android:id="@+id/checkBox3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Newton Heath"
-        android:layout_marginLeft="44dp"
-        android:layout_marginStart="44dp"
-        android:layout_alignBaseline="@+id/checkBox"
-        android:layout_alignBottom="@+id/checkBox"
-        android:layout_alignLeft="@+id/Button1"
-        android:layout_alignStart="@+id/Button1" />
-
-    <CheckBox
-        android:id="@+id/checkBox4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:text="New Castle"
-        android:layout_below="@+id/checkBox3"
-        android:layout_alignLeft="@+id/checkBox3"
-        android:layout_alignStart="@+id/checkBox3" />
+        android:orientation="vertical">
+        <RadioButton android:id="@+id/southport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Southport" />
+        <RadioButton android:id="@+id/newton_health"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Newton Health" />
+        <RadioButton android:id="@+id/preston"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Preston North ENd"/>
+    </RadioGroup>
 
     <Button
         android:id="@+id/Button1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/checkBox4"
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginTop="24dp"
-        android:background="#7FFFFF"
+        android:background="#F44336"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/radioGroup"
         android:text="NEXT " />
 </RelativeLayout>

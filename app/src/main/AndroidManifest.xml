@@ -18,13 +18,29 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:theme="@style/AppTheme2"
-            android:label="@string/app_name"/>
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme2" />
         <activity android:name=".LoginActivity" />
-        <activity android:name=".Pertanyaan2Activity" />
-        <activity android:name=".Pertanyaan3Activity" />
-        <activity android:name=".Pertanyaan4Activity" />
-        <activity android:name=".Pertanyaan5Activity" />
+        <activity
+            android:name=".Pertanyaan2Activity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".Pertanyaan3Activity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".Pertanyaan4Activity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".Pertanyaan5Activity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".ResultActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme2"></activity>
     </application>
 
 </manifest>
